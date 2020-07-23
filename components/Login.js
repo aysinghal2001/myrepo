@@ -32,6 +32,7 @@ export default class Login extends Component {
         <TouchableOpacity
           style={styles.SubmitButtonStyle}
           activeOpacity = { .5 }
+          onPress={() => {this.props.navigation.navigate("Home");}}
 
         >
 
